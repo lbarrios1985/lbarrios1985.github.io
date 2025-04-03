@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Ricardo Barrios Torres - Senior Full Stack Engineer</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header h2 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+        }
+        
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .skill-category {
+            background: var(--light-gray);
+            padding: 1rem;
+            border-radius: 4px;
+        }
+        
+        .skill-category h4 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .experience-item, .project-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        .experience-item h3, .project-item h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .experience-item .meta, .project-item .meta {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+        
+        ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        @media print {
+            body {
+                padding: 0.5in;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>LUIS RICARDO BARRIOS TORRES</h1>
+        <h2>Senior Full Stack Software Engineer</h2>
+        <div class="contact-info">
+            <span>📍 Mérida, Venezuela</span>
+            <span>📱 (+58) 4120747583</span>
+            <span>📧 ing.lrbt@gmail.com</span>
+            <a href="https://linkedin.com/in/inglrbt">🔗 LinkedIn</a>
+            <a href="https://github.com/lbarrios1985">💻 GitHub</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">PROFESSIONAL SUMMARY</h3>
+        <p>
+            Results-driven Senior Full Stack Software Engineer with 12+ years of expertise in enterprise application development and digital transformation initiatives. 
+            Demonstrated success in architecting and delivering high-performance solutions using modern technology stacks including React, Python, and Node.js. 
+            Strong background in agile methodologies (Scrum/Kanban) with proven track record of leading distributed teams and delivering complex projects.
+            Specialized in building scalable applications across fintech, e-commerce, and government sectors, with expertise in cryptocurrency, payment systems, and enterprise solutions.
+            Proven ability to reduce development cycles through implementation of DevOps practices, microservices architecture, and CI/CD pipelines.
+            Fluent in English (B2) with excellent communication skills and extensive experience working with international clients.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">TECHNICAL EXPERTISE</h3>
+        <div class="skill-grid">
+            <div class="skill-category">
+                <h4>Frontend Development</h4>
+                <ul>
+                    <li>React.js & React Native</li>
+                    <li>Vue.js & Vuetify</li>
+                    <li>HTML5/CSS3/SASS</li>
+                    <li>JavaScript/TypeScript</li>
+                    <li>Redux & Vuex</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Backend Development</h4>
+                <ul>
+                    <li>Python (Django, Flask)</li>
+                    <li>Node.js & Express</li>
+                    <li>PHP (Laravel)</li>
+                    <li>GraphQL & REST APIs</li>
+                    <li>Spring Boot</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Database & Cloud</h4>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>AWS Services</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>DevOps & Tools</h4>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Docker & Kubernetes</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Microservices</li>
+                    <li>Serverless Architecture</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Methodologies</h4>
+                <ul>
+                    <li>Scrum & Kanban</li>
+                    <li>Agile Development</li>
+                    <li>TDD & BDD</li>
+                    <li>Code Review</li>
+                    <li>DevOps Practices</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">PROFESSIONAL EXPERIENCE</h3>
+        
+        <div class="experience-item">
+            <h3>Senior Full Stack Developer</h3>
+            <div class="meta">Blokko.io | 2023 - Present | United States (Remote)</div>
+            <ul>
+                <li>Architected and developed a cryptocurrency payment processing system with fiat currency settlement</li>
+                <li>Implemented secure wallet integration with multiple blockchain networks and banking APIs</li>
+                <li>Led the development of RESTful APIs with 99.9% uptime serving international clients</li>
+                <li>Technologies: React, Node.js, AWS Lambda, MongoDB, Web3.js</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Senior React Developer</h3>
+            <div class="meta">Brocsoft | 2023 | USA (Remote)</div>
+            <ul>
+                <li>Developed a scalable vehicle marketplace platform with multi-dealer integration</li>
+                <li>Implemented real-time inventory tracking and search optimization</li>
+                <li>Built responsive UI components and state management system</li>
+                <li>Technologies: React, Redux, TypeScript, GraphQL</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Full Stack Developer</h3>
+            <div class="meta">Epidata C.A | 2021 - 2022 | Argentina (Remote)</div>
+            <ul>
+                <li>Led development of two major tax management systems for AGIP (Government of Argentina)</li>
+                <li>Implemented secure payment processing and tax calculation engines</li>
+                <li>Built real-time reporting dashboards for government officials</li>
+                <li>Technologies: React, Spring Boot, PostgreSQL, Docker</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Full Stack Developer</h3>
+            <div class="meta">G-FORCE Consulting | 2021 | Argentina & Panama (Remote)</div>
+            <ul>
+                <li>Developed multi-country logistics management platform operating in 4 countries</li>
+                <li>Implemented package tracking and operational management features</li>
+                <li>Built scalable backend services handling cross-border operations</li>
+                <li>Technologies: React, Symfony, PostgreSQL, Redis</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Full Stack Developer</h3>
+            <div class="meta">Alphas Technology | 2021 | Colombia (Remote)</div>
+            <ul>
+                <li>Developed multiple web applications and ERP systems</li>
+                <li>Implemented complex business logic and workflow automation</li>
+                <li>Built responsive front-end interfaces with modern frameworks</li>
+                <li>Technologies: Python, Vue.js, Node.js, PostgreSQL</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Full Stack Developer</h3>
+            <div class="meta">UPATE | 2019 - 2020 | Argentina (Remote)</div>
+            <ul>
+                <li>Developed full-stack travel booking platform with multiple service integrations</li>
+                <li>Implemented real-time pricing and availability systems</li>
+                <li>Built secure payment processing and booking management</li>
+                <li>Technologies: React, GraphQL, MongoDB, MySQL, Node.js</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Senior Web Developer</h3>
+            <div class="meta">IDBC Group | 2018 - 2019 | Venezuela</div>
+            <ul>
+                <li>Led development of enterprise solutions and information systems</li>
+                <li>Analyzed and optimized business processes and data flows</li>
+                <li>Implemented software development life cycle best practices</li>
+                <li>Technologies: Python, JavaScript, PostgreSQL</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Python Django Developer</h3>
+            <div class="meta">Timg | 2018 - 2019 | Chile (Remote)</div>
+            <ul>
+                <li>Developed integration between ERP Next and Chilean tax system (SII)</li>
+                <li>Implemented electronic invoicing compliance system</li>
+                <li>Built automated tax reporting and validation systems</li>
+                <li>Technologies: Python, Django, ERP Next, REST APIs</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Senior Web Developer</h3>
+            <div class="meta">Analiticom | 2017 - 2018 | Venezuela</div>
+            <ul>
+                <li>Led development of complex e-commerce and web applications</li>
+                <li>Managed project requirements and technical specifications</li>
+                <li>Collaborated with designers and project managers on solution architecture</li>
+                <li>Technologies: PHP, JavaScript, MySQL</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Software Developer</h3>
+            <div class="meta">Cenditel | 2017 | Venezuela</div>
+            <ul>
+                <li>Developed government web systems and applications</li>
+                <li>Implemented user authentication and authorization systems</li>
+                <li>Built responsive web interfaces and RESTful APIs</li>
+                <li>Technologies: Python, JavaScript, PostgreSQL</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Statistical Analyst</h3>
+            <div class="meta">Inpsasel | 2012 - 2016 | Venezuela</div>
+            <ul>
+                <li>Analyzed industrial accident rates and management indicators</li>
+                <li>Developed statistical analysis tools and reporting systems</li>
+                <li>Built data visualization and analysis pipelines</li>
+                <li>Technologies: R, Python, SQL</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Junior Developer</h3>
+            <div class="meta">Infotor | 2011 - 2012 | Venezuela</div>
+            <ul>
+                <li>Developed desktop application for public sector budget management</li>
+                <li>Implemented user interface using PyQt framework</li>
+                <li>Built data persistence and reporting features</li>
+                <li>Technologies: Python, PyQt, SQLite</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">CERTIFICATIONS & EDUCATION</h3>
+        <div class="education-item">
+            <h3>Systems Engineer</h3>
+            <div class="meta">Universidad de los Andes | Mérida, Venezuela | 2004 - 2009</div>
+        </div>
+        <div class="certification-item">
+            <h3>Languages</h3>
+            <ul>
+                <li>English - B2 Level (Advanced)</li>
+                <li>Spanish - Native</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">KEY PROJECTS</h3>
+        <div class="project-item">
+            <h3>Blokko POS (2024)</h3>
+            <div class="meta">Lead Developer | Blokko.io</div>
+            <ul>
+                <li>Developed cryptocurrency payment platform enabling business-to-consumer transactions with fiat settlement</li>
+                <li>Implemented secure multi-currency wallet and banking integration</li>
+                <li>Technologies: React, Node.js, AWS Lambda, MongoDB, Web3.js</li>
+                <li>Link: <a href="https://blokkoio.bubbleapps.io/" target="_blank">https://blokko.io</a></li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>LanaRojiBlanca (2024)</h3>
+            <div class="meta">Technical Lead | LanaGroup Inc</div>
+            <ul>
+                <li>Built serverless e-commerce platform with comprehensive AWS integration</li>
+                <li>Implemented secure user authentication and payment processing</li>
+                <li>Technologies: React, AWS (Lambda, Cognito, RDS, ApiGateway), Serverless</li>
+                <li>Link: <a href="https://lanarojiblanca.com/" target="_blank">https://lanarojiblanca.com/</a></li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Acompañar (2023)</h3>
+            <div class="meta">Full Stack Developer | EPIDATA</div>
+            <ul>
+                <li>Developed information management system for Early Childhood Spaces (EPIs)</li>
+                <li>Built comprehensive dashboard for tracking children, families, and resources</li>
+                <li>Technologies: React, Spring Boot, PostgreSQL, Docker</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>AGIP Tax Management (2021)</h3>
+            <div class="meta">Lead Developer | EPIDATA</div>
+            <ul>
+                <li>Built government revenue administration platform</li>
+                <li>Implemented secure tax processing and reporting system</li>
+                <li>Technologies: React, Spring Boot, PostgreSQL</li>
+                <li>Link: <a href="https://www.agip.gob.ar/" target="_blank">https://www.agip.gob.ar/</a></li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>PICKIT (2021)</h3>
+            <div class="meta">Full Stack Developer | G-FORCE Consulting</div>
+            <ul>
+                <li>Developed multi-country logistics and supply chain management platform</li>
+                <li>Implemented real-time package tracking and operational management</li>
+                <li>Technologies: React, Symfony, PostgreSQL, Redis</li>
+                <li>Link: <a href="https://pickit.com.ar/" target="_blank">https://pickit.com.ar/</a></li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>P.L.A.T.G.O (2020)</h3>
+            <div class="meta">Full Stack Developer | Apushi Technology</div>
+            <ul>
+                <li>Built operational management platform with modern UI/UX</li>
+                <li>Implemented RESTful API architecture and responsive design</li>
+                <li>Technologies: Vue.js, Vuetify, Laravel, MySQL</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>YUMMI PIZZA (2020)</h3>
+            <div class="meta">Mobile Developer | Apushi Technology</div>
+            <ul>
+                <li>Developed Android food delivery app with real-time tracking</li>
+                <li>Implemented geolocation and payment gateway integration</li>
+                <li>Technologies: React Native, Node.js, MongoDB, Google Maps API</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>UPATE.COM (2020)</h3>
+            <div class="meta">Full Stack Developer | Upate</div>
+            <ul>
+                <li>Built travel booking platform with multiple service integrations</li>
+                <li>Implemented real-time pricing and availability system</li>
+                <li>Technologies: React, GraphQL, MongoDB, MySQL, Node.js</li>
+                <li>Link: <a href="https://www.upate.com/" target="_blank">https://www.upate.com/</a></li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Autorepuestos Guicho (2019)</h3>
+            <div class="meta">Mobile Developer | INVERSIONES KOIVE</div>
+            <ul>
+                <li>Developed automotive parts e-commerce mobile application</li>
+                <li>Implemented inventory management and order processing</li>
+                <li>Technologies: React Native, Node.js, MongoDB</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Club Mercado (2019)</h3>
+            <div class="meta">Backend Developer | IDBC Group</div>
+            <ul>
+                <li>Built food products e-commerce platform connecting manufacturers and consumers</li>
+                <li>Implemented inventory and order management system</li>
+                <li>Technologies: Python, Django, PostgreSQL, Redis</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>TIMG Invoice System (2019)</h3>
+            <div class="meta">Python Developer | Timg</div>
+            <ul>
+                <li>Developed integration between ERP Next and Chilean tax system</li>
+                <li>Implemented automated electronic invoicing compliance</li>
+                <li>Technologies: Python, Django, ERP Next, REST APIs</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Repasar (2018)</h3>
+            <div class="meta">Full Stack Developer | Analiticom</div>
+            <ul>
+                <li>Built online education platform with video conferencing integration</li>
+                <li>Implemented payment processing and user management</li>
+                <li>Technologies: Node.js, React, MongoDB, Zoom API, PayPal API</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>AkiCoins (2018)</h3>
+            <div class="meta">Full Stack Developer | Analiticom</div>
+            <ul>
+                <li>Developed P2P cryptocurrency exchange platform</li>
+                <li>Implemented secure wallet and transaction system</li>
+                <li>Technologies: Node.js, React, MongoDB, Blockchain APIs</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>SEIVEN (2017)</h3>
+            <div class="meta">Full Stack Developer | CENDITEL</div>
+            <ul>
+                <li>Built integrated statistical system for Venezuelan public administration</li>
+                <li>Implemented data integration from multiple government institutions</li>
+                <li>Technologies: Python, Django, PostgreSQL, D3.js</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>SIGESIC (2017)</h3>
+            <div class="meta">Full Stack Developer | CENDITEL</div>
+            <ul>
+                <li>Developed industrial sector management system</li>
+                <li>Implemented data collection and reporting features</li>
+                <li>Technologies: Python, Django, PostgreSQL</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
